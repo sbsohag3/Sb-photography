@@ -22,7 +22,7 @@ const Banner = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
+            <h3>Classic Photo & Video</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -34,7 +34,7 @@ const Banner = () => {
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
+            <h3>Expressions Photo & Video</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -46,7 +46,7 @@ const Banner = () => {
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h3>Exclusive Photo & Video</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -58,7 +58,7 @@ const Banner = () => {
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h3>Storytelling Photo & Video</h3>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

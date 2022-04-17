@@ -2,68 +2,69 @@
   {
     "id": 1,
     "name": "Classic Photo & Video",
+    "bundle": "2-4 Hours Bundle" ,
     "price": "1,299",
-    "description": "Andrew Wise is a serial entrepreneur whose passion is storytelling through photography and videography. If you want to take your brand to the next level with the help of an expert performance marketer, visit JoinCapture.com",
-    "img": "https://i.ibb.co/z5rfLwV/andrew-wise-u-Q83-5lc1e-Q-unsplash.jpg"
+    "description":[
+      "A Certified Photographer for 2 Hours",
+      "Video Coverage for 2 Hours",
+      "30 Page, 10X10 Wedding Photo Album",
+      "Private Online Photo Gallery",    
+      "A 5-10 Minute Edited HD Highlight Film",
+      "Unlimited Coverage Locations",
+      "Unlimited Photos & Video Captured"
+    ],
+    "img": "https://i.ibb.co/92420YD/alvin-mahmudov-436-ZVx-ZOt-EM-unsplash.jpg"
   },
   {
     "id": 2,
-    "name": "Tim Mossholder",
-    "price": "1000",
-    "description": "Hello! I’m located on the Central Coast of California, and always on the lookout for something beautiful to capture. Connect on Instagram & Twitter: @timmossholder",
-    "img": "https://i.ibb.co/d4FXqg4/chris-ainsworth-Cxo-Ee-Nk-Jw-UA-unsplash.jpg"
+    "bundle": "6-8 Hours Bundle" ,
+    "name": "Expressions Photo & Video",
+    "price": "1,999",
+    "description": [
+     " A Certified Photographer for 6 Hours",
+     "A Certified Videographer for 6 Hours",
+      "All Edited High-Resolution Digital Photo Files",
+      "Private Online Photo Gallery",
+      "A 30-60 Minute Edited HD Wedding Film",
+      "Unlimited Coverage Locations",
+      "Unlimited Photos & Video Captured"
+    ],
+    "img": "https://i.ibb.co/X8Jz5m7/chuttersnap-2qlur-Ueoi3-A-unsplash.jpg"
   },
   {
     "id": 3,
-    "name": "Pablo Soriano",
-    "price": "550",
-    "description": "18 year old photographer based in London, hope you enjoy my page! if you want to give more feedback feel free to visit my instagram page: @el_sorian",
-    "img": "https://i.ibb.co/p4pjyHn/jannis-edelmann-G69-CWIw1-SEU-unsplash.jpg"
+    "name": "Exclusive Photo & Video",
+    "bundle": "8-10 Hours Bundle",
+    "price": "2,499",
+    "description": [
+      "A Certified Photographer for 8 Hours",
+      "A Certified Videographer for 8 Hours",
+      "30 Page, 10X10 Wedding Photo Album",
+      "All Edited High-Resolution Digital Photo Files",
+      "A 30-60 Minute Edited HD Wedding Film",
+      "Private Online Photo Gallery",
+      " Unlimited Photos & Video Captured"
+    ],
+    "img": "https://i.ibb.co/gJTYXnN/samantha-gades-7-JUDLPl-A114-unsplash.jpg"
   },
   {
     "id": 4,
-    "name": "Brooke Cagle",
-    "price": "680",
-    "description": "Founder of Tributary Studio, Top 25 Viewed/Downloaded on Unsplash, Arkansas Unsplash Ambassador ✕ Clients Include: Google, Samsung, Walmart, Aerie, Nylon Magazine. For Donations – Venmo: @tributarystudio | Paypal: @brookecagle.",
-    "img": "https://i.ibb.co/r5RkWGt/marco-xu-To-UPBCO62-Lw-unsplash.jpg"
-  },
-  {
-    "id": 5,
-    "name": "KAL VISUALS",
-    "price": "600",
-    "description": "Visual Storyteller & Professional Life Liver. My passion is creating superior media content that inspires positive change. I live to create. I'm addicted to my craft and find myself never leaving the office. The world is my office.",
-    "img": "https://i.ibb.co/B3rk6F5/mariah-krafft-ayc1-G5w-V3a-A-unsplash.jpg"
-  },
- 
-
-
-
-  {
-    "id": 6,
-    "name": "Leonor Oom",
-    "price": "250",
-    "description": "My name is Leonor, and im from Lisbon. My dream is to be a photographer and share all my adventures with the world. If you would like to see more of my work, check my instagram @leoomphotography. Hope you enjoy it. Good vibes only.",
-    "img": " https://i.ibb.co/kxVmPZB/joey-nicotra-2-Fh-RTB11-FGg-unsplash.jpg"
-  },
-  {
-    "id": 7,
-    "name": "Jake Nackos",
-    "price": "500",
-    "description": "Jake Nackos If you use a photos and would like to buy me a coffee as a thankyou, you can     here! or on Instagram: @jakenackos",
-    "img": "https://i.ibb.co/cgHvpCQ/kim-becker-Eo-Cw-Q5-Per-As-unsplash.jpg"
-  },
-  {
-    "id": 8,
-    "name": "Joey Nicotra",
-    "price": "400",
-    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-    "img": "https://i.ibb.co/p0L1b9J/matt-chambers-k-Yjn-Hh-Z7-If-Y-unsplash.jpg"
-  },
-  {
-    "id": 9,
-    "name": "Matt Chambers",
-    "price": "300",
-    "description": "It's a pleasure for me if you use my photos! If you would like to be a part of my community, follow or donate! All donations I'll send to Ukrainians who need support in these heavy times! Thanks all of you💙💛",
-    "img": "https://i.ibb.co/LZBXn44/samuel-rios-G73fbi6h-RMY-unsplash.jpg"
+    "name": "Storytelling Photo & Video ",
+    "bundle": "10 Hours Bundle",
+    "price": "4,199",
+    "description": [
+      "A Certified Photographer for 10 Hours",
+      "Second Certified Photographer for 8 Hours",
+      "A Certified Cinematographer for 10 Hours",
+      "Pre-Event Photo Session",
+      "Unlimited Coverage Locations",
+      "All Edited High-Resolution Digital Photo Files",
+      "Private Online Photo Gallery",
+      "Wedding Photo Album Set (12X12, 2-8X8, 6X6)",
+      "A 60-90 Minute Cinematic Feature Film"
+      
+          ],
+    "img": "https://i.ibb.co/9bX2ySm/victoria-priessnitz-MMNg-Gs-FEbu-I-unsplash-1.jpg"
   }
+  
 ]

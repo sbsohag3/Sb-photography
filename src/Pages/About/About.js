@@ -1,9 +1,12 @@
 import React from 'react';
+import img from '../../images/mypic.jpg';
 
 const About = () => {
   return (
     <div>
-      <h1>About Us</h1>
+      <div className='text-center'>
+        <img src={img} className='w-25' alt="" />
+      </div>
     </div>
   );
 };

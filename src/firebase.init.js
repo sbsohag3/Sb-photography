@@ -6,12 +6,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey:process.env.REACT_APP_apiKey,
-  authDomain:process.env.REACT_APP_authDomain,
-  projectId:process.env.REACT_APP_projectId,
-  storageBucket:process.env.REACT_APP_storageBucket,
-  messagingSenderId:process.env.REACT_APP_messagingSenderId,
-  appId:process.env.REACT_APP_appId,
+  apiKey: "AIzaSyDp1YWhzp0oA0psxt91Pmmun5c7N_D068U",
+  authDomain: "wedding-photographer-51f65.firebaseapp.com",
+  projectId: "wedding-photographer-51f65",
+  storageBucket: "wedding-photographer-51f65.appspot.com",
+  messagingSenderId: "98420887269",
+  appId: "1:98420887269:web:a019d504c7b0147a62ce0c",
 };
 
 // Initialize Firebase

@@ -22,7 +22,7 @@ const services = [
 
 const Services = () => {
   return (
-    <div id="services" className="container ">
+    <div id="gallery" className="container ">
       <h2 className="text-primary text-center mt-5">Photo Glary</h2>
       <div className="row border pb-5">
         {services.map((service) => (
