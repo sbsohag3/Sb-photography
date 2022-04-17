@@ -11,6 +11,7 @@ import PackageDetail from './Pages/PackageDetail/PackageDetail';
 
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
+import NotFound from './Pages/Shared/NotFound/NotFound';
 
 
 
@@ -37,6 +38,7 @@ function App() {
           }
         />
         <Route path="/login" element={<Login />} />
+        <Route path='*' element={<NotFound/>}/>
       </Routes>
       <Footer/>
     </div>

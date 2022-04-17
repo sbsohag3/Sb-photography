@@ -1,12 +1,12 @@
 import React from 'react';
 import { BsCheckAll } from "react-icons/bs";
 
-const Benefit = (props) => {
+const Benefit = ({benefit}) => {
   return (
     <div>
-      <p>
+      <p className='mb-0'>
         <BsCheckAll className="text-info" />
-        {props.benefit}
+        {benefit}
       </p>
     </div>
   );

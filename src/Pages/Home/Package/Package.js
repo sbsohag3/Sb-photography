@@ -18,7 +18,7 @@ const Package = ({ service }) => {
             <h5 className="text-info text-center border w-100">{bundle}</h5>
             <h3 className="card-title">{name}</h3>
             <h3 className="text-danger">Price: ${price}</h3>
-            {description.map((benefit) => (
+            {(description.slice(0, 20)).map((benefit) => (
               <Benefit benefit={benefit} />
             ))}
           </div>
