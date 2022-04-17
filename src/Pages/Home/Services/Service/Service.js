@@ -8,7 +8,7 @@ const Service = ({service}) => {
         <img
           src={img}
           height={400}
-          className="card-img-top mb-2 rounded"
+          className="card-img-top  rounded"
           alt="..."
         />
       </div>

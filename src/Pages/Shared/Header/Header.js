@@ -44,8 +44,8 @@ const Header = () => {
               </NavDropdown>
             </Nav>
             <Nav>
-              <Nav.Link as={Link} to="/blog">
-                Blog
+              <Nav.Link as={Link} to="/blogs">
+                Blogs
               </Nav.Link>
               <Nav.Link as={Link} to="/about">
                 About Me
