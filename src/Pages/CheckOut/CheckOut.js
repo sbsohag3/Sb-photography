@@ -20,13 +20,14 @@ const CheckOut = () => {
             placeholder="Enter Email"
             required
           />
-          <input type="number" name="Phone" id=""placeholder="Phone Number"/>
-          <input type="text" name="address" id="" placeholder="Your Address"/>
+          <input type="number" name="Phone" id=""placeholder="Phone Number" required/>
+          <input type="text" name="address" id="" placeholder="Your Address" required/>
 
           <input
             className="btn btn-primary mt-2"
             type="submit"
             value="Submit"
+            
           />
         </form>
       </div>

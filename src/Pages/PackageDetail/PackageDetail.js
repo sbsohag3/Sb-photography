@@ -2,10 +2,10 @@ import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 
 const PackageDetail = () => {
-  const { photographerId } = useParams();
+  const { packageId } = useParams();
   return (
     <div>
-      <h1>Welcome to Your Package : {photographerId}</h1>
+      <h1>Welcome to Your Package : {packageId}</h1>
       <div className="text-center">
         <Link to="/checkout">
           <button className="btn btn-primary">Proceed Checkout</button>
