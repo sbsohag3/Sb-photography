@@ -6,16 +6,16 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDp1YWhzp0oA0psxt91Pmmun5c7N_D068U",
-  authDomain: "wedding-photographer-51f65.firebaseapp.com",
-  projectId: "wedding-photographer-51f65",
-  storageBucket: "wedding-photographer-51f65.appspot.com",
-  messagingSenderId: "98420887269",
-  appId: "1:98420887269:web:a019d504c7b0147a62ce0c",
+  apiKey: "AIzaSyB6eBZtwbCW2DPcnwMOQ8z-xIYc2wX_z1w",
+  authDomain: "wedding-photography-e44b8.firebaseapp.com",
+  projectId: "wedding-photography-e44b8",
+  storageBucket: "wedding-photography-e44b8.appspot.com",
+  messagingSenderId: "904827364913",
+  appId: "1:904827364913:web:7ad70ae70d5caf65949710",
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
 
+const auth = getAuth(app);
 export default auth;

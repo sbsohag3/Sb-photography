@@ -87,7 +87,7 @@ const Login = () => {
           </Form>
           {errorElement}
           <p className="form-text">
-            New to Wedding Photographer?{" "}
+            New Wedding Photography?
             <Link
               to="/register"
               className="text-danger text-decoration-none "
@@ -97,7 +97,7 @@ const Login = () => {
             </Link>
           </p>
           <p className="form-text">
-            Forget Password?{" "}
+            Forget Password?
             <button
               className="btn btn-link text-primary text-decoration-none "
               onClick={resetPassword}

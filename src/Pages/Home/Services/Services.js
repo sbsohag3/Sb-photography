@@ -24,7 +24,7 @@ const Services = () => {
   return (
     <div id="gallery" className="container ">
       <h2 className="text-primary text-center mt-5">Photo Glary</h2>
-      <div className="row border pb-5">
+      <div className="row">
         {services.map((service) => (
           <Service key={service.id} service={service}></Service>
         ))}

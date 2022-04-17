@@ -1,0 +1,86 @@
+[debug] [2022-04-17T19:54:33.245Z] ----------------------------------------------------------------------
+[debug] [2022-04-17T19:54:33.247Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PLANET\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-04-17T19:54:33.247Z] CLI Version:   10.6.0
+[debug] [2022-04-17T19:54:33.247Z] Platform:      win32
+[debug] [2022-04-17T19:54:33.248Z] Node Version:  v16.13.1
+[debug] [2022-04-17T19:54:33.248Z] Time:          Mon Apr 18 2022 01:54:33 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-04-17T19:54:33.248Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-17T19:54:33.307Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-17T19:54:33.307Z] > authorizing via signed-in user (sbsohag4@gmail.com)
+[debug] [2022-04-17T19:54:33.307Z] [iam] checking project wedding-photographer-services for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-04-17T19:54:33.309Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/wedding-photographer-services:testIamPermissions [none]
+[debug] [2022-04-17T19:54:33.309Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/wedding-photographer-services:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-04-17T19:54:35.100Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/wedding-photographer-services:testIamPermissions 200
+[debug] [2022-04-17T19:54:35.100Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/wedding-photographer-services:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-04-17T19:54:35.103Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/wedding-photographer-services [none]
+[debug] [2022-04-17T19:54:35.860Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/wedding-photographer-services 200
+[debug] [2022-04-17T19:54:35.861Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/wedding-photographer-services {"projectId":"wedding-photographer-services","projectNumber":"420735144423","displayName":"wedding-photographer-services","name":"projects/wedding-photographer-services","resources":{"hostingSite":"wedding-photographer-services"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'wedding-photographer-services'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-04-17T19:54:35.864Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/wedding-photographer-services [none]
+[debug] [2022-04-17T19:54:36.925Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/wedding-photographer-services 200
+[debug] [2022-04-17T19:54:36.926Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/wedding-photographer-services {"projectId":"wedding-photographer-services","projectNumber":"420735144423","displayName":"wedding-photographer-services","name":"projects/wedding-photographer-services","resources":{"hostingSite":"wedding-photographer-services"},"state":"ACTIVE"}
+[debug] [2022-04-17T19:54:36.933Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/420735144423/sites/wedding-photographer-services/versions [none]
+[debug] [2022-04-17T19:54:36.934Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/420735144423/sites/wedding-photographer-services/versions {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-04-17T19:54:38.846Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/420735144423/sites/wedding-photographer-services/versions 500
+[debug] [2022-04-17T19:54:38.847Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/420735144423/sites/wedding-photographer-services/versions {"error":{"code":500,"message":"Internal error encountered.","status":"INTERNAL"}}
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2022-04-17T19:54:39.193Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500
+  }
+}
+[debug] [2022-04-17T19:55:03.029Z] ----------------------------------------------------------------------
+[debug] [2022-04-17T19:55:03.031Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PLANET\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-04-17T19:55:03.032Z] CLI Version:   10.6.0
+[debug] [2022-04-17T19:55:03.032Z] Platform:      win32
+[debug] [2022-04-17T19:55:03.032Z] Node Version:  v16.13.1
+[debug] [2022-04-17T19:55:03.033Z] Time:          Mon Apr 18 2022 01:55:03 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-04-17T19:55:03.033Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-17T19:55:03.090Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-17T19:55:03.091Z] > authorizing via signed-in user (sbsohag4@gmail.com)
+[debug] [2022-04-17T19:55:03.091Z] [iam] checking project wedding-photographer-services for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-04-17T19:55:03.093Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/wedding-photographer-services:testIamPermissions [none]
+[debug] [2022-04-17T19:55:03.093Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/wedding-photographer-services:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-04-17T19:55:04.423Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/wedding-photographer-services:testIamPermissions 200
+[debug] [2022-04-17T19:55:04.423Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/wedding-photographer-services:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-04-17T19:55:04.425Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/wedding-photographer-services [none]
+[debug] [2022-04-17T19:55:05.790Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/wedding-photographer-services 200
+[debug] [2022-04-17T19:55:05.790Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/wedding-photographer-services {"projectId":"wedding-photographer-services","projectNumber":"420735144423","displayName":"wedding-photographer-services","name":"projects/wedding-photographer-services","resources":{"hostingSite":"wedding-photographer-services"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'wedding-photographer-services'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-04-17T19:55:05.798Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/wedding-photographer-services [none]
+[debug] [2022-04-17T19:55:06.364Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/wedding-photographer-services 200
+[debug] [2022-04-17T19:55:06.364Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/wedding-photographer-services {"projectId":"wedding-photographer-services","projectNumber":"420735144423","displayName":"wedding-photographer-services","name":"projects/wedding-photographer-services","resources":{"hostingSite":"wedding-photographer-services"},"state":"ACTIVE"}
+[debug] [2022-04-17T19:55:06.367Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/420735144423/sites/wedding-photographer-services/versions [none]
+[debug] [2022-04-17T19:55:06.367Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/420735144423/sites/wedding-photographer-services/versions {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-04-17T19:55:08.044Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/420735144423/sites/wedding-photographer-services/versions 500
+[debug] [2022-04-17T19:55:08.044Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/420735144423/sites/wedding-photographer-services/versions {"error":{"code":500,"message":"Internal error encountered.","status":"INTERNAL"}}
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2022-04-17T19:55:08.387Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500
+  }
+}

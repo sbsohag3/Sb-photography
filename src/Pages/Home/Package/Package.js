@@ -16,9 +16,9 @@ const Package = ({ service }) => {
           <img src={img} height={400} alt="" />
           <div className="card-body">
             <h5 className="text-info text-center border w-100">{bundle}</h5>
-            <h3 className="card-title">{name}</h3>
-            <h3 className="text-danger">Price: ${price}</h3>
-            {(description.slice(0, 20)).map((benefit) => (
+            <h4 className="card-title">{name}</h4>
+            <h4 className="text-danger">Price: ${price}</h4>
+            {description.map((benefit) => (
               <Benefit benefit={benefit} />
             ))}
           </div>
