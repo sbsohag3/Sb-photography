@@ -6,7 +6,7 @@ const Footer = () => {
   const year = today.getFullYear();
   return (
     <footer>
-      <p><small>Copyright &copy; {year} Genius Car Services </small></p>
+      <p><small>Copyright &copy; {year} Wedding Photographer Service</small></p>
     </footer>
   );
 };

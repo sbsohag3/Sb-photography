@@ -87,7 +87,7 @@ const Login = () => {
           </Form>
           {errorElement}
           <p className="form-text">
-            New to Genius Car?{" "}
+            New to Wedding Photographer?{" "}
             <Link
               to="/register"
               className="text-danger text-decoration-none "

@@ -79,7 +79,7 @@ const Register = () => {
             className={`ps-2 fs-.5 ${agree ? "" : "text-danger"}`}
             htmlFor="terms"
           >
-            Accept Genius Car Terms and Conditions
+            Accept Wedding Conditions
           </label>
           <input
             disabled={!agree}
