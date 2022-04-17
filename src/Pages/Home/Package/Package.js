@@ -1,29 +1,23 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const Photographer = ({ photographer }) => {
-  const { id, name, img, price, description } = photographer;
+const Package = ({ service }) => {
+  const { id, name, img, price, description } = service;
   const navigate = useNavigate();
   const navigateToPhotographerDetail = (id) => {
-    navigate(`/photographer/${id}`);
+    navigate(`/package/${id}`);
   };
   return (
     <>
       <di>
         <div class="col">
           <div class="card h-100">
-            <img
-              width={"100%"}
-              height={"300px"}
-              class="card-img-top"
-              src={img}
-              alt=""
-            />
+            <img width={"100%"} class="card-img-top" src={img} alt="" />
             <div class="card-body">
-              <h2>{name}</h2>
-              <p class="card-text">Price : {price}</p>
+              <h3>{name}</h3>
+              <h4 class="card-text text-danger">Price : {price}</h4>
               <p>
-                <small>{description.slice(0, 110)}...</small>
+                <small>{description}</small>
               </p>
             </div>
             <div>
@@ -41,4 +35,4 @@ const Photographer = ({ photographer }) => {
   );
 };
 
-export default Photographer;
+export default Package;

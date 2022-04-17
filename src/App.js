@@ -7,7 +7,8 @@ import Home from './Pages/Home/Home/Home';
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
-import PhotographerDetail from './Pages/PhotographerDetail/PhotographerDetail';
+import PackageDetail from './Pages/PackageDetail/PackageDetail';
+
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
 
@@ -23,8 +24,8 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/blog" element={<Blog/>} />
         <Route
-          path="/photographer/:photographerId"
-          element={<PhotographerDetail />}
+          path="/package/:packageId"
+          element={<PackageDetail />}
         />
         <Route path="/register" element={<Register />} />
         <Route
