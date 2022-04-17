@@ -1,37 +1,38 @@
 import React from "react";
+
 import { useNavigate } from "react-router-dom";
+import Benefit from "../Benefit/Benefit";
 
 const Package = ({ service }) => {
-  const { id, name, img, price, description } = service;
+  const { id, name, img, price, description, bundle } = service;
   const navigate = useNavigate();
   const navigateToPhotographerDetail = (id) => {
     navigate(`/package/${id}`);
   };
   return (
-    <>
-      <di>
-        <div class="col">
-          <div class="card h-100">
-            <img width={"100%"} class="card-img-top" src={img} alt="" />
-            <div class="card-body">
-              <h3>{name}</h3>
-              <h4 class="card-text text-danger">Price : {price}</h4>
-              <p>
-                <small>{description}</small>
-              </p>
-            </div>
-            <div>
-              <button
-                onClick={() => navigateToPhotographerDetail(id)}
-                className="btn btn-primary w-100"
-              >
-                BOOK NOW
-              </button>
-            </div>
+    <div className="">
+      <div className="col">
+        <div className="card h-100">
+          <img src={img} height={400} alt="" />
+          <div className="card-body">
+            <h5 className="text-info text-center border w-100">{bundle}</h5>
+            <h3 className="card-title">{name}</h3>
+            <h3 className="text-danger">Price: ${price}</h3>
+            {description.map((benefit) => (
+              <Benefit benefit={benefit} />
+            ))}
+          </div>
+          <div className="card-footer">
+            <button
+              onClick={() => navigateToPhotographerDetail(id)}
+              className="btn btn-primary w-100"
+            >
+              BOOK NOW
+            </button>
           </div>
         </div>
-      </di>
-    </>
+      </div>
+    </div>
   );
 };
 
